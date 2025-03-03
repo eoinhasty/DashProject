@@ -5,7 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 # Load your pre-processed master data
-master_df = pd.read_csv('data/master_cleaned_reduced.csv.gz', 
+master_df = pd.read_csv('master_cleaned_reduced.csv.gz', 
                         parse_dates=['transfer_date', 'date_of_birth'], 
                         compression='gzip')
 
